@@ -1,0 +1,502 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+body {
+  background: rgb(19, 18, 18);
+  color: white;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto;
+  width: 403;
+  height: 67;
+  left: 987px;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+.headerNav {
+  display: flex;
+  gap: 30px;
+}
+.card1 {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  font-size: 50px;
+  top: 180.18px;
+  left: 2.18px;
+  opacity: 1;
+  border-width: 1px;
+}
+.latest {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+  font-family: DM Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 54px;
+  line-height: 79.2px;
+  letter-spacing: 2.88px;
+}
+button {
+  padding: 13px 20px;
+  border-radius: 6px;
+  background: #118da8;
+  color: white;
+  border: none;
+}
+#card2 {
+  background: #000000;
+  border-radius: 32px;
+  margin: 25px;
+  padding: 20px;
+
+  .card2 {
+    display: flex;
+    gap: 40px;
+  }
+  .Gear {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  h5 {
+    font-family: DM Sans;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  a {
+    font-family: DM Sans;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 17px;
+    line-height: 27px;
+    color: #118da8;
+    text-decoration: none;
+  }
+  h2 {
+    font-family: DM Sans;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 57px;
+    line-height: 70.4px;
+    letter-spacing: 2.56px;
+  }
+  p {
+    font-family: DM Sans;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0%;
+  }
+}
+#card3 {
+  background: #000000;
+  border-radius: 32px;
+  margin: 25px;
+  padding: 20px;
+  .card3 {
+    display: flex;
+    gap: 40px;
+  }
+  .Tips {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  h5 {
+    font-family: DM Sans;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  a {
+    font-family: DM Sans;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 17px;
+    line-height: 27px;
+    color: #118da8;
+    text-decoration: none;
+  }
+  h2 {
+    font-family: DM Sans;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 57px;
+    line-height: 70.4px;
+    letter-spacing: 2.56px;
+  }
+  p {
+    font-family: DM Sans;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0%;
+  }
+}
+#card4 {
+  background: #000000;
+  border-radius: 32px;
+  margin: 25px;
+  padding: 20px;
+  .card4 {
+    display: flex;
+    gap: 40px;
+  }
+  .Gear {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  h5 {
+    font-family: DM Sans;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  a {
+    font-family: DM Sans;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 17px;
+    line-height: 27px;
+    color: #118da8;
+    text-decoration: none;
+  }
+  h2 {
+    font-family: DM Sans;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 57px;
+    line-height: 70.4px;
+    letter-spacing: 2.56px;
+  }
+  p {
+    font-family: DM Sans;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0%;
+  }
+}
+#card5 {
+  .card5 {
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+  }
+  .Meet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  a {
+    font-family: DM Sans;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 27px;
+    text-decoration: none;
+    color: #118da8;
+  }
+  h2 {
+    font-family: DM Sans;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 65px;
+    line-height: 79.2px;
+    letter-spacing: 2.88px;
+  }
+  p {
+    font-family: DM Sans;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 22px;
+    line-height: 33px;
+  }
+}
+.card6 {
+  display: flex;
+  justify-content: space-around;
+  margin: 90px 0;
+  height: 350px;
+  background: #000000;
+  border-radius: 32px;
+  .email {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+    gap: 30px;
+    width: 660px;
+    height: 330px;
+  }
+
+  .input {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 30px;
+    height: 1530.4375;
+    top: 3120.44px;
+    border: none;
+    .Submit {
+      width: 95px;
+      font-family: DM Sans;
+      font-weight: 700;
+      font-style: Bold;
+      font-size: 15px;
+      line-height: 28.8px;
+    }
+    input {
+      padding: 15px 65px 10px 5px;
+      border-radius: 6px;
+      background: #191919;
+      border: none;
+    }
+  }
+  a {
+    font-family: DM Sans;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 27px;
+    color: #118da8;
+    text-decoration: none;
+  }
+  h2 {
+    font-family: DM Sans;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 72px;
+    line-height: 79.2px;
+    letter-spacing: 2.88px;
+  }
+}
+.card {
+  margin: 90px 0;
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  gap: 10px;
+
+  .card7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    background: #000000;
+    border-radius: 32px;
+    width: 415px;
+    height: 364px;
+
+    h3 {
+      font-family: DM Sans;
+      font-weight: 400;
+      font-style: Regular;
+      font-size: 36px;
+      line-height: 43.2px;
+      margin: 30px 0;
+    }
+    h4 {
+      font-family: DM Sans;
+      font-weight: 400;
+      font-style: Regular;
+      font-size: 24px;
+      line-height: 28.8px;
+      display: flex;
+    }
+  }
+  .card8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    background: #000000;
+    border-radius: 32px;
+    width: 415px;
+    height: 364px;
+
+    h3 {
+      font-family: DM Sans;
+      font-weight: 400;
+      font-style: Regular;
+      font-size: 36px;
+      line-height: 43.2px;
+      margin: 30px 0;
+    }
+    h4 {
+      font-family: DM Sans;
+      font-weight: 400;
+      font-style: Regular;
+      font-size: 24px;
+      line-height: 28.8px;
+    }
+  }
+  .card9 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    background: #000000;
+    border-radius: 32px;
+    width: 415px;
+    height: 364px;
+
+    h3 {
+      font-family: DM Sans;
+      font-weight: 400;
+      font-style: Regular;
+      font-size: 36px;
+      line-height: 43.2px;
+      margin: 30px 0;
+    }
+    h4 {
+      font-family: DM Sans;
+      font-weight: 400;
+      font-style: Regular;
+      font-size: 24px;
+      line-height: 28.8px;
+    }
+  }
+  .card10 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    background: #000000;
+    border-radius: 32px;
+    width: 415px;
+    height: 364px;
+
+    h3 {
+      font-family: DM Sans;
+      font-weight: 400;
+      font-style: Regular;
+      font-size: 36px;
+      line-height: 43.2px;
+      margin: 30px 0;
+    }
+    h4 {
+      font-family: DM Sans;
+      font-weight: 400;
+      font-style: Regular;
+      font-size: 24px;
+      line-height: 28.8px;
+    }
+  }
+  .card11 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    background: #000000;
+    border-radius: 32px;
+    width: 415px;
+    height: 364px;
+
+    h3 {
+      font-family: DM Sans;
+      font-weight: 400;
+      font-style: Regular;
+      font-size: 36px;
+      line-height: 43.2px;
+      margin: 30px 0;
+    }
+    h4 {
+      font-family: DM Sans;
+      font-weight: 400;
+      font-style: Regular;
+      font-size: 24px;
+      line-height: 28.8px;
+    }
+  }
+  .card12 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    background: #000000;
+    border-radius: 32px;
+    width: 415px;
+    height: 364px;
+
+    h3 {
+      font-family: DM Sans;
+      font-weight: 400;
+      font-style: Regular;
+      font-size: 36px;
+      line-height: 43.2px;
+      margin: 30px 0;
+    }
+    h4 {
+      font-family: DM Sans;
+      font-weight: 400;
+      font-style: Regular;
+      font-size: 24px;
+      line-height: 28.8px;
+    }
+  }
+}
+.footer {
+  margin: 90px 0;
+  display: flex;
+  justify-content: space-around;
+  gap: 90px;
+
+  .img {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 459px;
+    height: 27px;
+    top: 66px;
+    margin: 0 15px;
+  }
+
+  .Home {
+    display: flex;
+    flex-direction: column;
+    font-family: DM Sans;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 17px;
+    line-height: 27px;
+    color: white;
+  }
+  .Guide {
+    display: flex;
+    flex-direction: column;
+    font-family: DM Sans;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 17px;
+    line-height: 27px;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    gap: 20px;
+  }
+  .img1 {
+    width: 459px;
+    height: 32px;
+    left: 877px;
+  }
+}
